@@ -42,7 +42,7 @@ layers:
   - {t: ↹, h: kb_utils}
   - {t: ⌫, h: num}
   - {t: underspace, h: symb}
-  - ⌦
+  - DEL
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
