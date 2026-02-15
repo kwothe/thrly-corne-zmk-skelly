@@ -41,8 +41,8 @@ layers:
   - ⏎
   - {t: ↹, h: kb_utils}
   - {t: ⌫, h: num}
-  - {t: ⎵, h: symb}
-  - {t: ⌦, h: sticky}
+  - {t: underspace, h: symb}
+  - ⌦
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
