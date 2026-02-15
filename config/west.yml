@@ -11,11 +11,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
-    - name: nice-view-gem
-      remote: m165437
-      revision: main
     - name: zmk-helpers
       remote: urob
       revision: main
