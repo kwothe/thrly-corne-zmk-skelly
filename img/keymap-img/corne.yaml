@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - ⌘
+  - ''
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - ⌦
-  - ⌃
+  - ''
+  - ''
   - {t: A, h: ⌘}
   - {t: S, h: ⎇}
-  - {t: D, h: ⇧}
-  - {t: F, h: ⌃}
+  - {t: D, h: ⌃}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: ⌃}
-  - {t: K, h: ⇧}
+  - {t: J, h: ⇧}
+  - {t: K, h: ⌃}
   - {t: L, h: ⎇}
   - {t: ;, h: ⌘, s: ':'}
-  - ''''
-  - {t: ⇧, h: sticky}
+  - ''
+  - ''
   - Z
   - X
   - C
@@ -36,13 +36,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
-  - ⎇
-  - ⌃
-  - {t: ⎵, h: nav, s: _}
+  - ''
+  - ESC
+  - ⏎
   - {t: ↹, h: kb_utils}
-  - {t: ⏎, h: num}
-  - {t: ⌫, h: symb}
-  - {t: ⇧, h: sticky}
+  - {t: ⌫, h: num}
+  - {t: ⎵, h: symb}
+  - {t: ⌦, h: sticky}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -81,7 +81,7 @@ layers:
   - END
   - FORWARD
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

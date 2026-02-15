@@ -171,7 +171,7 @@
 &none      &kp Q         &kp W            &kp E              &kp R         &kp T        &kp Y      &kp U            &kp I               &kp O            &kp P                 &none
 &none      &bhm LMETA A  &bhm LEFT_ALT S  &bhm LCTRL D  &bhm LEFT_SHIFT F  &kp G        &kp H      &bhm RIGHT_SHIFT J  &bhm RCTRL K     &bhm LEFT_ALT L  &bhm LMETA SEMICOLON  &none
 &none      &kp Z         &kp X            &kp C              &kp V         &kp B        &kp N      &kp M            &kp COMMA           &kp DOT          &kp FSLH              &none
-                                          &kp ESC        &kp RET       &lt 4 TAB    &lt 3 BACKSPACE   &lt 2 underspace  &sk DELETE
+                                          &kp ESC        &kp RET       &lt 4 TAB    &lt 3 BACKSPACE   &lt 2 SPACE  &sk DELETE
             >;
         };
 
