@@ -38,11 +38,11 @@ layers:
   - /
   - ''
   - ESC
-  - {t: ⏎, h: nav}
+  - {t: ENTER, h: nav}
   - {t: ↹, h: kb_utils}
   - {t: ⌫, h: num}
   - {t: ⎵, h: symb}
-  - DEL
+  - K
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,14 +167,14 @@ layers:
   - Sft+0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
+  - ENTER
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   kb_utils:
-  - BOOT
   - ''
+  - BT CLR
   - ''
   - ''
   - ''
@@ -197,7 +197,7 @@ layers:
   - MOUSE ↑
   - MOUSE →
   - ''
-  - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
