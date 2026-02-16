@@ -60,18 +60,6 @@
             layers = <0>;
         };
 
-        combo_Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <10 9>;
-            layers = <0>;
-        };
-
-        combo_underscore {
-            bindings = <&kp UNDER>;
-            key-positions = <7 8>;
-            layers = <0>;
-        };
-
         combo_dash {
             bindings = <&kp MINUS>;
             key-positions = <4 3>;
@@ -140,14 +128,6 @@
             bindings = <&kp GREATER_THAN>, <&arrow_func>;
         };
 
-        underspace: underspace {
-            compatible = "zmk,behavior-mod-morph";
-            label = "UNDERSPACE";
-            bindings = <&lt 1 SPACE>, <&kp UNDER>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_RSFT)>;
-        };
     };
 
     keymap {
