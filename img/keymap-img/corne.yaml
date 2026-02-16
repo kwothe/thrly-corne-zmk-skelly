@@ -38,7 +38,7 @@ layers:
   - /
   - ''
   - ESC
-  - ⏎
+  - '&lt 1ET'
   - {t: ↹, h: kb_utils}
   - {t: ⌫, h: num}
   - {t: ⎵, h: symb}
