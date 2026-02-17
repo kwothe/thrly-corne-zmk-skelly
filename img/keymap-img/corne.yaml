@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
   default:
-  - ⌘
+  - ''
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - ⌦
-  - ⌃
+  - ''
+  - ''
   - {t: A, h: ⌘}
   - {t: S, h: ⎇}
-  - {t: D, h: ⇧}
-  - {t: F, h: ⌃}
+  - {t: D, h: ⌃}
+  - {t: F, h: ⇧}
   - G
   - H
-  - {t: J, h: ⌃}
-  - {t: K, h: ⇧}
+  - {t: J, h: ⇧}
+  - {t: K, h: ⌃}
   - {t: L, h: ⎇}
   - {t: ;, h: ⌘, s: ':'}
-  - ''''
-  - {t: ⇧, h: sticky}
+  - ''
+  - ''
   - Z
   - X
   - C
@@ -36,13 +36,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - /
-  - ⎇
-  - ⌃
-  - {t: ⎵, h: nav, s: _}
+  - ''
+  - ESC
+  - {t: ⏎, h: nav}
   - {t: ↹, h: kb_utils}
-  - {t: ⏎, h: num}
-  - {t: ⌫, h: symb}
-  - {t: ⇧, h: sticky}
+  - {t: ⌫, h: num}
+  - {t: ⎵, h: symb}
+  - ⌦
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,11 +174,11 @@ layers:
   - {t: ▽, type: trans}
   kb_utils:
   - BOOT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - LClk
   - RClk
@@ -197,12 +197,12 @@ layers:
   - MOUSE ↑
   - MOUSE →
   - ''
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - ''
+  - '&mpk MB1'
+  - RClk
+  - Mid Clk
+  - ''
+  - LOCKING NUM
   - ''
   - BACK
   - SCROLL ↓
