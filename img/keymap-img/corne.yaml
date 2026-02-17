@@ -199,10 +199,10 @@ layers:
   - ''
   - ''
   - LClk
-  - RClk
-  - Mid Clk
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - ''
-  - LOCKING NUM
+  - KP NUM
   - ''
   - BACK
   - SCROLL ↓
