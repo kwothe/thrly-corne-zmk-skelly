@@ -255,9 +255,9 @@ layers:
   - LClk
   - '&mkp MCLK'
   - '&mkp RCLK'
-  - '&K_CALC'
-  - '&C_AL_FILES'
-  - '&K_WWW'
+  - CALC
+  - AL FILES
+  - WWW
 combos:
 - p: [17, 18]
   k: ⇪ WORD
